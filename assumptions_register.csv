@@ -1,0 +1,115 @@
+﻿category,key,value,unit,source_or_rationale,editable
+baseline,baseline_revenue_cr,3421.0,INR crore/year,Official hackathon handout FY25 modelled baseline,TRUE
+baseline,baseline_ebitda_cr,297.7,INR crore/year,Official handout FY25 modelled baseline,TRUE
+baseline,baseline_pat_cr,37.6,INR crore/year,Official handout FY25 modelled baseline,TRUE
+baseline,baseline_raw_material_spend_cr,1223.0,INR crore/year,Official handout; seven inputs combined,TRUE
+baseline,default_oem_pass_through_pct,50.0,%,Official handout; editable scenario control,TRUE
+baseline,baseline_ocean_freight_spend_cr,25.0,INR crore/year,Official handout; modelled inbound ocean spend,TRUE
+baseline,baseline_freight_usd_per_container,2172.0,USD per 40-foot container,Official handout value dated 19 Mar 2026; also last value in freight file,TRUE
+baseline,baseline_freight_reference_date,2026-03-19,date,Official handout anchor; freight source dates reconstructed,TRUE
+baseline,baseline_fx_inr_per_usd,94.675,INR per USD,"Latest cleaned RBI/interbank close, 30 Jun 2026; 134 days older than latest price driver",TRUE
+baseline,baseline_fx_reference_date,2026-06-30,date,Latest FX observation in supplied file,TRUE
+baseline,marginal_tax_rate_pct,25.0,%,Simplified marginal tax assumption from handout guidance,TRUE
+inventory,inventory_carry_rate_pct,18.0,% per year,Illustrative annual carrying cost; no company input supplied,TRUE
+inventory,current_stock_cover_days_default,30.0,days,Illustrative starting cover; no inventory data supplied,TRUE
+inventory,safety_stock_days_default,15.0,days,Illustrative buffer; no safety-stock data supplied,TRUE
+logistics,container_payload_tonnes,24.0,tonnes/container,Illustrative payload capacity; no lane/container data supplied,TRUE
+logistics,payload_utilization_pct,85.0,% of payload,Illustrative utilization; no container loading data supplied,TRUE
+logistics,inland_freight_inr_per_tonne,2500.0,INR/tonne,Illustrative inland + handling transport allowance,TRUE
+logistics,handling_insurance_pct,1.5,% of material value,Illustrative handling/insurance allowance,TRUE
+division,division_share.steering_gear,35.0,% of raw spend,Illustrative allocation; no division spend mix supplied,TRUE
+division,division_share.braking,20.0,% of raw spend,Illustrative allocation; no division spend mix supplied,TRUE
+division,division_share.engine_valves,20.0,% of raw spend,Illustrative allocation; no division spend mix supplied,TRUE
+division,division_share.light_metal_castings,25.0,% of raw spend,Illustrative allocation; no division spend mix supplied,TRUE
+division_mix,mix.steering_gear.copper,8.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.steering_gear.nickel,4.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.steering_gear.aluminium,6.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.steering_gear.phenolic_resin,7.000000000000001,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.steering_gear.natural_rubber,3.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.steering_gear.steel_hr,35.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.steering_gear.steel_cr,37.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.braking.copper,3.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.braking.nickel,1.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.braking.aluminium,5.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.braking.phenolic_resin,25.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.braking.natural_rubber,25.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.braking.steel_hr,22.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.braking.steel_cr,19.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.engine_valves.copper,6.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.engine_valves.nickel,4.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.engine_valves.aluminium,8.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.engine_valves.phenolic_resin,3.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.engine_valves.natural_rubber,2.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.engine_valves.steel_hr,45.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.engine_valves.steel_cr,32.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.light_metal_castings.copper,1.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.light_metal_castings.nickel,2.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.light_metal_castings.aluminium,70.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.light_metal_castings.phenolic_resin,2.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.light_metal_castings.natural_rubber,1.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.light_metal_castings.steel_hr,14.000000000000002,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+division_mix,mix.light_metal_castings.steel_cr,10.0,% of division raw spend,Illustrative engineering mix; not actual Rane BOM,TRUE
+sourcing,import_share.copper,80,%,Illustrative sourcing split; no supplier/procurement file supplied,TRUE
+sourcing,duty_rate.copper,5,% ad valorem,Illustrative baseline duty; verify actual HS code and origin,TRUE
+inventory,lead_time_days.copper,60,days,Illustrative supplier lead time; no supplier master supplied,TRUE
+inventory,stock_cover_days.copper,30,days,Illustrative on-hand cover; no inventory file supplied,TRUE
+inventory,safety_stock_days.copper,15,days,Illustrative buffer; editable,TRUE
+sourcing,supplier.copper,Assumed imported copper supplier pool,supplier group,Placeholder group label; actual suppliers not supplied,TRUE
+sourcing,import_share.nickel,95,%,Illustrative sourcing split; no supplier/procurement file supplied,TRUE
+sourcing,duty_rate.nickel,5,% ad valorem,Illustrative baseline duty; verify actual HS code and origin,TRUE
+inventory,lead_time_days.nickel,75,days,Illustrative supplier lead time; no supplier master supplied,TRUE
+inventory,stock_cover_days.nickel,30,days,Illustrative on-hand cover; no inventory file supplied,TRUE
+inventory,safety_stock_days.nickel,15,days,Illustrative buffer; editable,TRUE
+sourcing,supplier.nickel,Assumed imported nickel supplier pool,supplier group,Placeholder group label; actual suppliers not supplied,TRUE
+sourcing,import_share.aluminium,70,%,Illustrative sourcing split; no supplier/procurement file supplied,TRUE
+sourcing,duty_rate.aluminium,5,% ad valorem,Illustrative baseline duty; verify actual HS code and origin,TRUE
+inventory,lead_time_days.aluminium,55,days,Illustrative supplier lead time; no supplier master supplied,TRUE
+inventory,stock_cover_days.aluminium,30,days,Illustrative on-hand cover; no inventory file supplied,TRUE
+inventory,safety_stock_days.aluminium,15,days,Illustrative buffer; editable,TRUE
+sourcing,supplier.aluminium,Assumed aluminium ingot/foundry supplier pool,supplier group,Placeholder group label; actual suppliers not supplied,TRUE
+sourcing,import_share.phenolic_resin,75,%,Illustrative sourcing split; no supplier/procurement file supplied,TRUE
+sourcing,duty_rate.phenolic_resin,7.5,% ad valorem,Illustrative baseline duty; verify actual HS code and origin,TRUE
+inventory,lead_time_days.phenolic_resin,45,days,Illustrative supplier lead time; no supplier master supplied,TRUE
+inventory,stock_cover_days.phenolic_resin,30,days,Illustrative on-hand cover; no inventory file supplied,TRUE
+inventory,safety_stock_days.phenolic_resin,15,days,Illustrative buffer; editable,TRUE
+sourcing,supplier.phenolic_resin,Assumed phenolic resin supplier pool; proxy price source,supplier group,Placeholder group label; actual suppliers not supplied,TRUE
+sourcing,import_share.natural_rubber,10,%,Illustrative sourcing split; no supplier/procurement file supplied,TRUE
+sourcing,duty_rate.natural_rubber,0,% ad valorem,Illustrative baseline duty; verify actual HS code and origin,TRUE
+inventory,lead_time_days.natural_rubber,30,days,Illustrative supplier lead time; no supplier master supplied,TRUE
+inventory,stock_cover_days.natural_rubber,30,days,Illustrative on-hand cover; no inventory file supplied,TRUE
+inventory,safety_stock_days.natural_rubber,15,days,Illustrative buffer; editable,TRUE
+sourcing,supplier.natural_rubber,Assumed Indian natural rubber supplier pool,supplier group,Placeholder group label; actual suppliers not supplied,TRUE
+sourcing,import_share.steel_hr,10,%,Illustrative sourcing split; no supplier/procurement file supplied,TRUE
+sourcing,duty_rate.steel_hr,7.5,% ad valorem,Illustrative baseline duty; verify actual HS code and origin,TRUE
+inventory,lead_time_days.steel_hr,30,days,Illustrative supplier lead time; no supplier master supplied,TRUE
+inventory,stock_cover_days.steel_hr,30,days,Illustrative on-hand cover; no inventory file supplied,TRUE
+inventory,safety_stock_days.steel_hr,15,days,Illustrative buffer; editable,TRUE
+sourcing,supplier.steel_hr,Assumed domestic HR coil mill pool,supplier group,Placeholder group label; actual suppliers not supplied,TRUE
+sourcing,import_share.steel_cr,10,%,Illustrative sourcing split; no supplier/procurement file supplied,TRUE
+sourcing,duty_rate.steel_cr,7.5,% ad valorem,Illustrative baseline duty; verify actual HS code and origin,TRUE
+inventory,lead_time_days.steel_cr,30,days,Illustrative supplier lead time; no supplier master supplied,TRUE
+inventory,stock_cover_days.steel_cr,30,days,Illustrative on-hand cover; no inventory file supplied,TRUE
+inventory,safety_stock_days.steel_cr,15,days,Illustrative buffer; editable,TRUE
+sourcing,supplier.steel_cr,Assumed domestic CR coil mill pool,supplier group,Placeholder group label; actual suppliers not supplied,TRUE
+action,forward_buy_share_pct,25,% of annual material volume,Illustrative eligible forward-buy share,TRUE
+action,forward_buy_cover_days,60,days,Illustrative forward-buy cover window,TRUE
+action,hedge_share_pct,50,% of exposed imported spend,Illustrative hedge ratio,TRUE
+action,hedge_premium_pct,1,% of hedged notional,Illustrative annual hedge cost,TRUE
+action,contract_share_pct,35,% of annual spend,Illustrative contract-locked share,TRUE
+action,contract_premium_pct,1.5,% of locked spend,Illustrative supplier contract premium,TRUE
+action,alternate_share_pct,20,% of imported spend,Illustrative qualified alternate share,TRUE
+action,alternate_premium_pct,2,% of shifted spend,Illustrative alternate sourcing premium,TRUE
+action,alternate_qualification_cost_cr,0.2,INR crore,Illustrative one-time qualification cost,TRUE
+action,stock_topup_days,15,days,Illustrative safety-stock increase,TRUE
+action,downtime_cost_cr_per_day,1.5,INR crore/day,Illustrative contribution/line disruption proxy; not company actual,TRUE
+action,air_freight_share_pct,10,% of inbound volume expedited,Illustrative emergency air share,TRUE
+action,air_vs_ocean_cost_multiple,10,times ocean freight cost,Illustrative air premium multiple,TRUE
+action,air_days_saved,18,days,Illustrative air transit-time reduction,TRUE
+action,reroute_share_pct,30,% of inbound volume rerouted,Illustrative rerouted volume share,TRUE
+action,reroute_surcharge_pct,25,% of rerouted ocean freight,Illustrative reroute surcharge,TRUE
+action,reroute_days_saved,12,days,Illustrative reroute lead-time reduction,TRUE
+action,oem_target_pass_through_pct,80,%,Illustrative negotiated target; not contractual fact,TRUE
+action,oem_concession_pct,0.25,% of revenue,Illustrative commercial concession to secure recovery,TRUE
+action,resequence_days_saved,6,days,Illustrative production re-sequencing benefit,TRUE
+action,resequence_setup_cost_cr,0.15,INR crore,Illustrative setup/scrap cost,TRUE
+action,demand_cut_pct,5,% of remaining volume,Illustrative additional demand-based cut,TRUE

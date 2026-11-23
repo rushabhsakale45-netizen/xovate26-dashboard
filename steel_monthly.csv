@@ -1,0 +1,70 @@
+﻿date,month_end,tmt_10mm_rs_t,hr_coil_2_5mm_rs_t,cr_coil_0_63mm_rs_t,iron_ore_lumps_rs_t,hcc_coking_coal_fob_australia_usd_t,steel_price_source,iron_ore_source,coking_coal_source,flag,is_indicative,is_backfilled_from_later_report,quality_flags
+2021-01-31,2021-01-31,57001,67433,79288,,,"Chart, start of next month (indicative)",Not available in reports,Not available in reports,,True,False,indicative_start_of_next_month_chart_point
+2021-02-28,2021-02-28,54037,65773,77628,,,"Chart, start of next month (indicative)",Not available in reports,Not available in reports,,True,False,indicative_start_of_next_month_chart_point
+2021-03-31,2021-03-31,54731,69520,81756,,,"Chart, start of next month (indicative)",Not available in reports,Not available in reports,,True,False,indicative_start_of_next_month_chart_point
+2021-04-30,2021-04-30,59306,78670,95162,,,"Chart, start of next month (indicative)",Not available in reports,Not available in reports,,True,False,indicative_start_of_next_month_chart_point
+2021-05-31,2021-05-31,59412,80586,99418,,,"Chart, start of next month (indicative)",Not available in reports,Not available in reports,,True,False,indicative_start_of_next_month_chart_point
+2021-06-30,2021-06-30,59306,79628,98461,,,"Chart, start of next month (indicative)",Not available in reports,Not available in reports,,True,False,indicative_start_of_next_month_chart_point
+2021-07-31,2021-07-31,59199,78138,94205,,,"Chart, start of next month (indicative)",Not available in reports,Not available in reports,,True,False,indicative_start_of_next_month_chart_point
+2021-08-31,2021-08-31,60476,78883,90906,,,"Chart, start of next month (indicative)",Not available in reports,Not available in reports,,True,False,indicative_start_of_next_month_chart_point
+2021-09-30,2021-09-30,60157,79096,88778,,,Chart month-end,Not available in reports,Not available in reports,,False,False,
+2021-10-31,2021-10-31,67073,86438,92928,,,"Chart, start of next month (indicative)",Not available in reports,Not available in reports,,True,False,indicative_start_of_next_month_chart_point
+2021-11-30,2021-11-30,66015,84883,90199,,,Stated in report text,Not available in reports,Not available in reports,,False,False,
+2021-12-31,2021-12-31,63450,80470,84600,,,Stated in report text,Not available in reports,Not available in reports,,False,False,
+2022-01-31,2022-01-31,64350,80010,83190,,,Stated in report text,Not available in reports,Not available in reports,,False,False,
+2022-02-28,2022-02-28,72250,82028,88500,,,Chart month-end; Stated in report text,Not available in reports,Not available in reports,"HRC: report text states 80,010 but later charts/reports give 82,028; chart value kept",False,False,
+2022-03-31,2022-03-31,84341,92630,103840,,,Stated in report text,Not available in reports,Not available in reports,,False,False,
+2022-04-30,2022-04-30,80390,88270,102070,,,Stated in report text,Not available in reports,Not available in reports,,False,False,
+2022-05-31,2022-05-31,72350,84850,92750,,,Stated in report text,Not available in reports,Not available in reports,,False,False,
+2022-06-30,2022-06-30,71246,74930,80830,,,Stated in report text,Not available in reports,Not available in reports,,False,False,
+2022-07-31,2022-07-31,67231,72570,80240,,,Stated in report text,Not available in reports,Not available in reports,,False,False,
+2022-08-31,2022-08-31,69750,70210,79920,,,Stated in report text,Not available in reports,Not available in reports,,False,False,
+2022-09-30,2022-09-30,67050,70090,77120,,,Stated in report text,Not available in reports,Not available in reports,,False,False,
+2022-10-31,2022-10-31,67459,68475,76747,,,Chart month-end,Not available in reports,Not available in reports,,False,False,
+2022-11-30,2022-11-30,64040,67260,74340,,,Stated in report text,Not available in reports,Not available in reports,,False,False,
+2022-12-31,2022-12-31,66750,65780,72100,,,Stated in report text,Not available in reports,Not available in reports,,False,False,
+2023-01-31,2023-01-31,71100,71370,76640,,,Stated in report text,Not available in reports,Not available in reports,,False,False,
+2023-02-28,2023-02-28,72750,72500,77140,,,Stated in report text,Not available in reports,Not available in reports,,False,False,
+2023-03-31,2023-03-31,69800,71980,77290,,,Stated in report text,Not available in reports,Not available in reports,,False,False,
+2023-04-30,2023-04-30,69780,70471,76230,4200.0,270.0,Chart month-end,Stated in report text,Chart labels,,False,False,
+2023-05-31,2023-05-31,64600,67850,73160,3900.0,231.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2023-06-30,2023-06-30,62969,64871,71980,3900.0,231.0,Chart month-end,Stated in report text,Chart labels,,False,False,
+2023-07-31,2023-07-31,59150,67250,72200,4950.0,232.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2023-08-31,2023-08-31,62110,68030,73160,4650.0,255.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2023-09-30,2023-09-30,65815,68390,74700,4950.0,304.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2023-10-31,2023-10-31,64916,67814,75513,5200.0,354.0,Chart month-end,Stated in report text,Chart labels,,False,False,
+2023-11-30,2023-11-30,64190,65990,75340,5400.0,320.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2023-12-31,2023-12-31,61750,65900,74340,5400.0,326.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2024-01-31,2024-01-31,60440,65440,74010,5800.0,332.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2024-02-29,2024-02-29,60328,64670,73340,5800.0,315.0,Stated in report text,Chart,Chart labels,,False,False,
+2024-03-31,2024-03-31,62570,63290,73150,5800.0,275.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2024-04-30,2024-04-30,65100,64900,72550,6200.0,239.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2024-05-31,2024-05-31,66580,64610,72860,6450.0,239.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2024-06-30,2024-06-30,62750,63720,72320,5950.0,249.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2024-07-31,2024-07-31,57940,62250,71460,5950.0,237.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2024-08-31,2024-08-31,57120,59890,69530,5350.0,206.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2024-09-30,2024-09-30,56450,59000,68440,5350.0,187.0,Stated in report text,Chart,Chart labels,,False,False,
+2024-10-31,2024-10-31,58740,59890,67542,6050.0,204.0,Chart month-end,Chart,Chart labels,,False,True,value_recovered_from_later_report
+2024-11-30,2024-11-30,58345,58525,67147,6050.0,204.0,Chart month-end,Chart,Chart labels,,False,True,value_recovered_from_later_report
+2024-12-31,2024-12-31,58884,57231,66644,6050.0,200.0,Chart month-end,Chart,Chart labels,,False,True,value_recovered_from_later_report
+2025-01-31,2025-01-31,58489,56405,65279,6000.0,192.0,Chart month-end,Chart,Chart labels,,False,False,
+2025-02-28,2025-02-28,57750,57960,66670,6000.0,188.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2025-03-31,2025-03-31,60250,60920,68350,6000.0,175.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2025-04-30,2025-04-30,61370,62110,70350,6000.0,182.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2025-05-31,2025-05-31,59950,62340,70790,6440.0,192.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2025-06-30,2025-06-30,56225,61506,70165,6300.0,178.0,Chart month-end,Stated in report text,Chart labels,,False,False,
+2025-07-31,2025-07-31,54249,59099,68692,5700.0,177.0,Chart month-end,Stated in report text,Chart labels,,False,False,
+2025-08-31,2025-08-31,55490,59780,68940,6100.0,187.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2025-09-30,2025-09-30,54350,59540,68130,6100.0,188.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2025-10-31,2025-10-31,52450,58500,66540,5550.0,190.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2025-11-30,2025-11-30,52360,55940,66150,5500.0,196.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2025-12-31,2025-12-31,52700,54760,64970,5500.0,212.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2026-01-31,2026-01-31,61240,62350,69750,4600.0,235.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2026-02-28,2026-02-28,63950,64500,71720,4700.0,246.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2026-03-31,2026-03-31,64750,66940,75960,4800.0,225.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2026-04-30,2026-04-30,65890,71990,80100,5300.0,233.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2026-05-31,2026-05-31,62140,68990,78120,5500.0,239.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2026-06-30,2026-06-30,57950,69159,78020,5700.0,243.0,Chart month-end; Stated in report text,Stated in report text,Chart labels,"HRC: report text states 68,170 but later charts/reports give 69,159; chart value kept",False,False,check_source_note_for_HR_coil_discrepancy
+2026-07-31,2026-07-31,54790,68990,78740,5450.0,229.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2026-08-31,2026-08-31,56920,69410,78680,5250.0,237.0,Stated in report text,Stated in report text,Chart labels,,False,False,
+2026-09-30,2026-09-30,65750,76900,89670,5400.0,278.0,Stated in report text,Stated in report text,Chart labels,,False,False,
